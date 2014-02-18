@@ -723,7 +723,7 @@
 
 					<!--Custom-->
 
-					<Frame name="TestHtmlFrame">
+					<Frame name="HtmlFrame">
 						<Size>
 							<AbsDimension x="500" y="300"/>
 						</Size>
@@ -747,7 +747,7 @@
 						</Backdrop>
 						<Layers>
 							<Layer level="ARTWORK">
-								<FontString name="TestTitle" inherits="GlueFontNormalLarge" text="HTML_TEST_TITLE">
+								<FontString name="HTMLFrameTitle" inherits="GlueFontNormalLarge" text="HTML_TITLE">
 									<Anchors>
 										<Anchor point="TOP">
 											<Offset>
@@ -759,7 +759,7 @@
 							</Layer>
 						</Layers>
 						<Frames>
-							<ScrollFrame name="TestScrollFrame" inherits="GlueScrollFrameTemplate">
+							<ScrollFrame name="HTMLScrollFrame" inherits="GlueScrollFrameTemplate">
 								<Size>
 									<AbsDimension x="448" y="240"/>
 								</Size>
@@ -783,7 +783,7 @@
 									</OnScrollRangeChanged>
 								</Scripts>
 								<ScrollChild>
-									<SimpleHTML name="TestFrame" file="test.html" hyperlinkFormat="|cff06ff07|H%s|h[%s]|h|r">
+									<SimpleHTML name="HTMLDispFrame" file="file.html" hyperlinkFormat="|cff06ff07|H%s|h[%s]|h|r">
 										<Size>
 											<AbsDimension x="448" y="407"/>
 										</Size>

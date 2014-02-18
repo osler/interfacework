@@ -2,7 +2,7 @@ FADE_IN_TIME = 2;
 DEFAULT_TOOLTIP_COLOR = {0.8, 0.8, 0.8, 0.09, 0.09, 0.09};
 MAX_PIN_LENGTH = 10;
 
-HTML_TEST_TITLE = "Test";
+HTML_TITLE = "Test";
 
 function AccountLogin_OnLoad(self)
 	TOSFrame.noticeType = "EULA";
